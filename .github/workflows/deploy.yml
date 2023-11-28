@@ -1,18 +1,14 @@
-
-
-
 on:
     push:
-      branches: [master]
-  
-  
-  jobs: 
-    build: 
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v3
-  
-        - name: echo
-          run: echo asd
-        - name: npm i
-          run: npm i
+        branches: [master]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: echo
+              run: echo asd
+            - name: npm i
+              run: npm i
