@@ -2,7 +2,7 @@
 	"name": "azuredeploy2",
 	"private": true,
 	"version": "0.0.0",
-	"typea": "module",
+	"type": "module",
 	"scripts": {
 		"start": "echo START SCRIPT HAS RUN && tsx server",
 		"dev": "vite",
